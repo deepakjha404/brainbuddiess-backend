@@ -1,27 +1,41 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Dependency directories
+node_modules/
+venv/
+.env/
+dist/
+build/
+*.egg-info/
 
-# dependencies
-/node_modules
+# OS files
+.DS_Store
+Thumbs.db
 
-# next.js
-/.next/
-/out/
+# Compiled files
+*.pyc
+*.class
+*.o
+*.so
 
-# production
-/build
+# Logs and databases
+*.log
+*.sqlite3
 
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
+# IDE files
+/.idea/
+/.vscode/
+/*.sublime-workspace
+/*.sublime-project
 
-# env files
-.env*
+# Environment files
+.env
+.env.*
 
-# vercel
-.vercel
+# Coverage and test results
+.coverage
+coverage/
+*.lcov
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# Miscellaneous
+*.bak
+*.swp
+*.tmp
